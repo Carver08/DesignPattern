@@ -1,4 +1,4 @@
-package com.demo.factorypattern;
+package com.pattern.factory;
 
 public class XiaoMi implements MakePhone{
 
