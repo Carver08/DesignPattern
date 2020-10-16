@@ -11,10 +11,11 @@ class Proxy implements Service{
     @Override
     public void m1() {
         Long start=System.nanoTime();
-        target.m1();
+        target.m1();  
         Long end=System.nanoTime();
         System.out.println(end-start);
     }
+    
     @Override
     public void m2() {
         Long start=System.nanoTime();
@@ -22,6 +23,7 @@ class Proxy implements Service{
         Long end=System.nanoTime();
         System.out.println(end-start);
     }
+    
     @Override
     public void m3() {
         Long start=System.nanoTime();
